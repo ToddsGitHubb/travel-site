@@ -6,17 +6,17 @@
 .large-hero__image {
 	display: block;
 }
-
-.large-hero__text-content { 
+ 
+.large-hero__text-content {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	left: 0;
 	width: 100%;
 	text-align: center;
-}	
+}
 
-.large-hero__title { 
+.large-hero__title {
 	font-weight: 300;
 	color: $mainBlue;
 	margin: 0;
