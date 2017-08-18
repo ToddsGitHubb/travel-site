@@ -1070,7 +1070,7 @@ a {
   text-align: center;
 }
 
-.site-footer__text {
+.site-footer__text { 
     display: block;
     margin-bottom: 1rem;
     font-weight: 200;
