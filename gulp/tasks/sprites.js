@@ -40,9 +40,9 @@ gulp.task('createSprite', ['beginClean'], function() {
 });
 
 gulp.task('createPngCopy', ['createSprite'], function() {
-  return gulp.src('./app/temp/sprite/css/*.svg')
+  return gulp.src('./app/temp/sprite/**/*.svg')
     .pipe(svg2png())
-    .pipe(gulp.dest('./app/temp/sprite/css'));
+    .pipe(gulp.dest('./app/temp/sprite'));
 });
 
 gulp.task('copySpriteGraphic', ['createPngCopy'], function() {
